@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4xx</title>
+</head>
+<body>
+<h1>status：[[${status}]]</h1>
+<h2>timestamp：[[${timestamp}]]</h2>
+
+<!--
+错误请求处理自动配置原理：参照ErrorMvcAutoConfiguration类
+给容器中添加的以下组件：
+DefaultErrorAttributes（帮我们在页面共享信息）
+@Override
+public Map<String, Object> getErrorAttributes(WebRequest webRequest, boolean includeStackTrace) {
+    Map<String, Object> errorAttributes = new LinkedHashMap<>();
+    errorAttributes.put("timestamp", new Date());
+    addStatus(errorAttributes, webRequest);
+    addErrorDetails(errorAttributes, webRequest, includeStackTrace);
+    addPath(errorAttributes, webRequest);
+    return errorAttributes;
+}
+
+BasicErrorController：处理默认/error请求
+@Controller
+@RequestMapping("${server.error.path:${error.path:/error}}")
+public class BasicErrorController extends AbstractErrorController {}
+
+@RequestMapping(produces = MediaType.TEXT_HTML_VALUE) //产生html类型的数据；浏览器发送的请求到这个方法处理
+public ModelAndView errorHtml(HttpServletRequest request, HttpServletResponse response) {
+    HttpStatus status = getStatus(request);
+    Map<String, Object> model = Collections
+            .unmodifiableMap(getErrorAttributes(request, isIncludeStackTrace(request, MediaType.TEXT_HTML)));
+    response.setStatus(status.value());
+    // 去哪个页面作为错误页面；包含页面地址和页面内容
+    ModelAndView modelAndView = resolveErrorView(request, response, status, model);
+    return (modelAndView != null) ? modelAndView : new ModelAndView("error", model);
+}
+@RequestMapping // 产生json数据；其他客户端来到此方法处理
+public ResponseEntity<Map<String, Object>> error(HttpServletRequest request) {
+    HttpStatus status = getStatus(request);
+    if (status == HttpStatus.NO_CONTENT) {
+        return new ResponseEntity<Map<String, Object>>(status);
+    }
+    Map<String, Object> body = getErrorAttributes(request, isIncludeStackTrace(request, MediaType.ALL));
+    return new ResponseEntity<>(body, status);
+}
+AbstractErrorController抽象类
+protected ModelAndView resolveErrorView(HttpServletRequest request, HttpServletResponse response, HttpStatus status,
+        Map<String, Object> model) {
+        // 所有的ErrorViewResolver得到ModelAndView
+        // ErrorViewResolver接口的实现类是DefaultErrorViewResolver
+    for (ErrorViewResolver resolver : this.errorViewResolvers) {
+        ModelAndView modelAndView = resolver.resolveErrorView(request, status, model);
+        if (modelAndView != null) {
+            return modelAndView;
+        }
+    }
+    return null;
+}
+
+
+private ModelAndView resolveResource(String viewName, Map<String, Object> model) {
+    for (String location : this.resourceProperties.getStaticLocations()) {
+        try {
+            Resource resource = this.applicationContext.getResource(location);
+            resource = resource.createRelative(viewName + ".html");
+            if (resource.exists()) {
+                return new ModelAndView(new HtmlResourceView(resource), model);
+            }
+        }
+        catch (Exception ex) {
+        }
+    }
+    return null;
+}
+
+ErrorPageCustomizer
+@Value("${error.path:/error}")
+	private String path = "/error";
+
+DefaultErrorViewResolver类
+@Override
+	public ModelAndView resolveErrorView(HttpServletRequest request, HttpStatus status, Map<String, Object> model) {
+		ModelAndView modelAndView = resolve(String.valueOf(status.value()), model);
+		if (modelAndView == null && SERIES_VIEWS.containsKey(status.series())) {
+			modelAndView = resolve(SERIES_VIEWS.get(status.series()), model);
+		}
+		return modelAndView;
+	}
+private ModelAndView resolve(String viewName, Map<String, Object> model) {
+    //默认springboot可以去找到一个页面？error/404
+    String errorViewName = "error/" + viewName;
+    //模板引擎可以解析这个页面地址就用模板引擎解析
+    TemplateAvailabilityProvider provider = this.templateAvailabilityProviders.getProvider(errorViewName,
+            this.applicationContext);
+    if (provider != null) {
+        //模板引擎可用的情况下返回到errorViewName指定的视图地址
+        return new ModelAndView(errorViewName, model);
+    }
+    //模板引擎不可用的情况下，就在静态资源文件下找errorViewName对应的html页面：error/404.html
+    return resolveResource(errorViewName, model);
+}
+
+处理步骤：
+    系统出现错误后来到error请求进行处理；（相当于在web.xml中注册的错误页面规则）
+    一旦系统产生4xx或5xx之类的错误；ErrorPageCustomizer就会生效（定制错误的响应规则），就会来到/error请求，
+    就会被BasicErrorController处理；响应出去可以获取的数据是由getErrorAttributes（抽象类：AbstractErrorController实现（ErrorController））得到的
+    响应页面：去哪个页面是由DefaultErrorViewResolver解析得到的
+
+    // 如何定制错误页面：
+    1）、有模板引擎的情况下，error/状态码；将错误页面命名为错误状态码.html，放在模板引擎文件夹里的error目录下，发生此状态码的错误就会来到对应的页面
+       使用4xx或5xx作为错误页面的文件名来匹配这种类型的所有错误，精确优先（优先寻找精确的状态码.html）
+    2）、模板引擎下找不到这个错误页面，就去静态资源文件夹下找，但是不能用模板引擎渲染相关错误信息
+    3）、以上都没有错误页面，就是来到默认的错误页面
+
+    timestamp：时间戳
+    status：状态码
+    error：错误提示
+    exception：异常对象
+    message：异常消息
+    errors：JSR数据校验的错误都在这里
+
+    IDEA_查找接口的实现 的快捷键
+    IDEA 风格       ctrl + alt +B    ctrl + H（继承树）
+    Eclipse 风格          ctrl +T    F4（继承树）
+
+
+-->
+</body>
+</html>

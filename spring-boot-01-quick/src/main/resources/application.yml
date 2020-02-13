@@ -1,0 +1,42 @@
+# yml文件支持多文档块方式，激活指定的端口号也可在命令行参数执行：program-arguments: --spring.profiles.active=dev
+# 也可以配置虚拟机参数 VM options: -Dspring.profiles.active=dev
+server:
+  port: 8082
+spring:
+  profiles:
+    active: prod # 激活prod环境配置
+
+--- # 每个文档块使用---分割
+server:
+  port: 8888
+spring:
+  profiles: dev # 命名当前文档块的环境名
+---
+server:
+  port: 8090
+spring:
+  profiles: prod
+---
+
+# 注意：pom中要配置spring-boot-configuration-processor文件处理器依赖
+#person:
+#  #  lastName: zhangsan
+#  age: 22
+#  boss: true
+#  birth: 2019/5/5
+#  maps: {k1: v1, k2: 12}
+#  lists:
+#    - lisi
+#    - zhapliu
+#  dog:
+#    name: 小狗
+#    age: 2
+#  last-name: zhangsan
+
+# last-name和lastName写法等价（松散绑定）
+
+# 双引号会转义字符串里的特殊字符，特殊字符会作为本身想表示的意思，比如"\n"会转义成换行符
+# 单引号不会转义特殊字符，特殊字符最终只是一个普通的字符串数据，比如'\n'直接输出\n
+# 对象、Map的键值对行内写法要加花括号{}，键值对之间要用逗号隔开，注意键值对之间要有空格，格式：键: 值
+# 数组(List, Set)：数组中一个元素表示的格式：- 值
+# 数组的行内写法要加方括号，元素值之间用逗号隔开

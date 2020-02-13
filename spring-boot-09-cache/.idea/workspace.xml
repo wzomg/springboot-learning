@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f13c5d0b-cef4-448d-8746-3062fd5d04e3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-boot-09-cache" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xh1RNF5e6pb3EoT48cSGxSw4vc" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rabbitmq" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zzw.cache" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Maven_Project\spring-boot-09-cache\src\main\java\com\zzw\cache\mapper" />
+      <recent name="D:\Maven_Project\spring-boot-09-cache\src\main\java\com\zzw\cache" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBoot09CacheApplication">
+    <configuration name="SpringBoot09CacheApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-09-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.cache.SpringBoot09CacheApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot09CacheApplicationTests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-09-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.cache.SpringBoot09CacheApplicationTests" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot09CacheApplicationTests.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-09-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.cache.SpringBoot09CacheApplicationTests" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot09CacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-09-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzw.cache.SpringBoot09CacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringBoot09CacheApplicationTests.test02" />
+        <item itemvalue="JUnit.SpringBoot09CacheApplicationTests.test01" />
+        <item itemvalue="JUnit.SpringBoot09CacheApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\17283\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f13c5d0b-cef4-448d-8746-3062fd5d04e3" name="Default Changelist" comment="" />
+      <created>1581483502153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581483502153</updated>
+      <workItem from="1581483503666" duration="2379000" />
+      <workItem from="1581485930420" duration="28071000" />
+      <workItem from="1581561755493" duration="1642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2481" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1581493545291">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2481" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581493545291" />
+    <state x="2209" y="348" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581484843203">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2209" y="348" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581484843203" />
+    <state x="2438" y="296" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581484845351">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2438" y="296" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581484845351" />
+    <state x="2441" y="133" key="FileChooserDialogImpl" timestamp="1581522334167">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2441" y="133" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581522334167" />
+    <state width="1547" height="192" key="GridCell.Tab.0.bottom" timestamp="1581563534076">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="192" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581563534076" />
+    <state width="1547" height="192" key="GridCell.Tab.0.center" timestamp="1581563534076">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="192" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581563534076" />
+    <state width="1547" height="192" key="GridCell.Tab.0.left" timestamp="1581563534076">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="192" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581563534076" />
+    <state width="1547" height="192" key="GridCell.Tab.0.right" timestamp="1581563534076">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="192" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581563534076" />
+    <state width="1547" height="268" key="GridCell.Tab.1.bottom" timestamp="1581524153178">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="268" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581524153178" />
+    <state width="1547" height="268" key="GridCell.Tab.1.center" timestamp="1581524153178">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="268" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581524153178" />
+    <state width="1547" height="268" key="GridCell.Tab.1.left" timestamp="1581524153178">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="268" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581524153178" />
+    <state width="1547" height="268" key="GridCell.Tab.1.right" timestamp="1581524153178">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="268" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581524153178" />
+    <state width="1547" height="268" key="GridCell.Tab.2.bottom" timestamp="1581524153178">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="268" key="GridCell.Tab.2.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581524153178" />
+    <state width="1547" height="268" key="GridCell.Tab.2.center" timestamp="1581524153178">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="268" key="GridCell.Tab.2.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581524153178" />
+    <state width="1547" height="268" key="GridCell.Tab.2.left" timestamp="1581524153178">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="268" key="GridCell.Tab.2.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581524153178" />
+    <state width="1547" height="268" key="GridCell.Tab.2.right" timestamp="1581524153178">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state width="1547" height="268" key="GridCell.Tab.2.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581524153178" />
+    <state x="2374" y="113" width="804" height="655" key="StructurePopup" timestamp="1581514123039">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2374" y="113" width="804" height="655" key="StructurePopup/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581514123039" />
+    <state x="2299" y="0" width="840" height="868" key="search.everywhere.popup" timestamp="1581519717223">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2299" y="0" width="840" height="868" key="search.everywhere.popup/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581519717223" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCacheManager.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d280db61-b42f-412d-b631-44a27e9d75c0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XeIwDf6O9Zpo6hGQwr3SoARq0x" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBoot04DataJdbcApplication">
+    <configuration name="SpringBoot04DataJdbcApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-04-data-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.springboot04datajdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.springboot04datajdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.springboot04datajdbc.SpringBoot04DataJdbcApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot04DataJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-data-jdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzw.springboot04datajdbc.SpringBoot04DataJdbcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringBoot04DataJdbcApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\17283\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d280db61-b42f-412d-b631-44a27e9d75c0" name="Default Changelist" comment="" />
+      <created>1581400369473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581400369473</updated>
+      <workItem from="1581400371368" duration="6908000" />
+      <workItem from="1581409154216" duration="4780000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2387" y="124" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581406865377">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2387" y="124" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581406865377" />
+    <state x="2441" y="133" key="FileChooserDialogImpl" timestamp="1581402514912">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2441" y="133" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581402514912" />
+    <state width="1547" height="208" key="GridCell.Tab.0.bottom" timestamp="1581416392485">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1547" height="208" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
+    <state width="1547" height="129" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415198490" />
+    <state width="1547" height="208" key="GridCell.Tab.0.center" timestamp="1581416392485">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1547" height="208" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
+    <state width="1547" height="129" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415198489" />
+    <state width="1547" height="208" key="GridCell.Tab.0.left" timestamp="1581416392485">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1547" height="208" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
+    <state width="1547" height="129" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415198488" />
+    <state width="1547" height="208" key="GridCell.Tab.0.right" timestamp="1581416392485">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1547" height="208" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
+    <state width="1547" height="129" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415198489" />
+    <state width="1547" height="208" key="GridCell.Tab.1.bottom" timestamp="1581416392486">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1547" height="208" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392486" />
+    <state width="1547" height="129" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415187311" />
+    <state width="1547" height="208" key="GridCell.Tab.1.center" timestamp="1581416392485">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1547" height="208" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
+    <state width="1547" height="129" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415187311" />
+    <state width="1547" height="208" key="GridCell.Tab.1.left" timestamp="1581416392485">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1547" height="208" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
+    <state width="1547" height="129" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415187311" />
+    <state width="1547" height="208" key="GridCell.Tab.1.right" timestamp="1581416392486">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1547" height="208" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392486" />
+    <state width="1547" height="129" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415187311" />
+    <state x="2142" y="0" key="SettingsEditor" timestamp="1581400424285">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2142" y="0" key="SettingsEditor/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581400424285" />
+    <state x="2299" y="0" width="840" height="868" key="search.everywhere.popup" timestamp="1581414489770">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2299" y="0" width="840" height="868" key="search.everywhere.popup/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581414489770" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zzw/springboot04datajdbc/SpringBoot04DataJdbcApplicationTests.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
