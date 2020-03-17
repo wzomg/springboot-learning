@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:shiro="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+
+<h1>首页</h1>
+<!--类似el表达式语法-->
+<p th:text="${msg}"></p>
+
+<!-- 若当前登录的用户有被授予 user:add 字符串访问某资源的权限，才显示出来 -->
+<div shiro:hasPermission="user:add">
+    <a th:href="@{/user/add}">add</a>
+</div>
+
+<div shiro:hasPermission="user:update">
+    <a th:href="@{/user/update}">update</a>
+</div>
+<br>
+
+<div th:if="${session.loginUser}==null">
+    <a th:href="@{/toLogin}">登录</a>
+</div>
+
+</body>
+</html>
