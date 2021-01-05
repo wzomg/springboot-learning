@@ -1,24 +1,25 @@
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
-import org.apache.shiro.config.IniSecurityManagerFactory;
-import org.apache.shiro.mgt.SecurityManager;
+import org.apache.shiro.mgt.DefaultSecurityManager;
+import org.apache.shiro.realm.text.IniRealm;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
-import org.apache.shiro.util.Factory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Quickstart {
 
-    private static final transient Logger log = LoggerFactory.getLogger(Quickstart.class);
+    private static final Logger log = LoggerFactory.getLogger(Quickstart.class);
 
     public static void main(String[] args) {
-
-        Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
-        SecurityManager securityManager = factory.getInstance();
-        SecurityUtils.setSecurityManager(securityManager);
-
-        // 获取当前的用户对象
+        //1、获取默认的SecurityManager
+        DefaultSecurityManager SecurityManager = new DefaultSecurityManager();
+        IniRealm iniRealm = new IniRealm("classpath:shiro.ini");
+        //导入权限ini文件构建权限工厂
+        SecurityManager.setRealm(iniRealm);
+        // 2. 设置到工具中
+        SecurityUtils.setSecurityManager(SecurityManager);
+        // 使用 SecurityUtils 工具获取主体
         Subject currentUser = SecurityUtils.getSubject();
 
         // 通过当前用户拿到 session
