@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7e45def-adcd-4017-9305-89cfe3ee16ff" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d5JfU4t3ubqjJmrPeddz82UoXy" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzw.rabbitmq.topic" />
+      <recent name="com.zzw.rabbitmq.route" />
+      <recent name="com.zzw.rabbitmq.fanout" />
+      <recent name="com.zzw.rabbitmq.workqueue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RabbitmqDemoApplicationTests.testTopic">
+    <configuration name="RabbitmqDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-15-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.rabbitmq.RabbitmqDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDemoApplicationTests.testFanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-15-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.rabbitmq.RabbitmqDemoApplicationTests" />
+      <option name="METHOD_NAME" value="testFanout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDemoApplicationTests.testRoute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-15-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.rabbitmq.RabbitmqDemoApplicationTests" />
+      <option name="METHOD_NAME" value="testRoute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDemoApplicationTests.testTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-15-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.rabbitmq.RabbitmqDemoApplicationTests" />
+      <option name="METHOD_NAME" value="testTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDemoApplicationTests.testWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-15-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzw.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.zzw.rabbitmq.RabbitmqDemoApplicationTests" />
+      <option name="METHOD_NAME" value="testWork" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-15-rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzw.rabbitmq.RabbitmqDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RabbitmqDemoApplicationTests.testTopic" />
+        <item itemvalue="JUnit.RabbitmqDemoApplicationTests.testRoute" />
+        <item itemvalue="JUnit.RabbitmqDemoApplicationTests.testFanout" />
+        <item itemvalue="JUnit.RabbitmqDemoApplicationTests.testWork" />
+        <item itemvalue="JUnit.RabbitmqDemoApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\17283\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7e45def-adcd-4017-9305-89cfe3ee16ff" name="Default Changelist" comment="" />
+      <created>1591709124098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591709124098</updated>
+      <workItem from="1591709128248" duration="4054000" />
+      <workItem from="1591795158796" duration="6918000" />
+      <workItem from="1591833940195" duration="17433000" />
+      <workItem from="1591973395391" duration="1210000" />
+      <workItem from="1609811189673" duration="140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1865" height="309" key="GridCell.Tab.0.bottom" timestamp="1609811236180">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="309" key="GridCell.Tab.0.bottom/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609811236180" />
+    <state width="1865" height="309" key="GridCell.Tab.0.center" timestamp="1609811236180">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="309" key="GridCell.Tab.0.center/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609811236180" />
+    <state width="1865" height="309" key="GridCell.Tab.0.left" timestamp="1609811236180">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="309" key="GridCell.Tab.0.left/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609811236180" />
+    <state width="1865" height="309" key="GridCell.Tab.0.right" timestamp="1609811236180">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="309" key="GridCell.Tab.0.right/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609811236180" />
+    <state x="504" y="188" width="912" height="674" key="find.popup" timestamp="1609811323144">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="504" y="188" width="912" height="674" key="find.popup/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609811323144" />
+  </component>
+</project>

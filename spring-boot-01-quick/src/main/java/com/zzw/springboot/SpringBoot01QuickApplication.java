@@ -2,7 +2,6 @@ package com.zzw.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ImportResource;
 
 
 // 导入Spring的配置文件让其生效，参数为一个数组，@ImportResource标注在一个配置类上，来加载Spring的配置文件

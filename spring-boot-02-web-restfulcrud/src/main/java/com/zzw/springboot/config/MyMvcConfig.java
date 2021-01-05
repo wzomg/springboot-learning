@@ -1,7 +1,6 @@
 package com.zzw.springboot.config;
 
 
-import com.zzw.springboot.component.LoginHandlerInterceptor;
 import com.zzw.springboot.component.MyLocaleResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

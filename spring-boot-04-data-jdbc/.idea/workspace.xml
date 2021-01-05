@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d280db61-b42f-412d-b631-44a27e9d75c0" name="Default Changelist" comment="" />
+    <list default="true" id="d280db61-b42f-412d-b631-44a27e9d75c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/springboot04datajdbc/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/springboot04datajdbc/config/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/src/main/java/com/zzw/springboot05datamybatis/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/src/main/java/com/zzw/springboot05datamybatis/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/src/main/java/com/zzw/springboot05datamybatis/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/src/main/java/com/zzw/springboot05datamybatis/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-05-data-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/zzw/springboot06datajpa/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/zzw/springboot06datajpa/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-08-starter-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-09-cache/src/main/java/com/zzw/cache/config/MyRedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-09-cache/src/main/java/com/zzw/cache/config/MyRedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-09-cache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-09-cache/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-09-cache/src/test/java/com/zzw/cache/SpringBoot09CacheApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-09-cache/src/test/java/com/zzw/cache/SpringBoot09CacheApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-10-amqp/src/test/java/com/zzw/springboot10amqp/SpringBoot10AmqpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-10-amqp/src/test/java/com/zzw/springboot10amqp/SpringBoot10AmqpApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-11-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-11-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-11-task/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-11-task/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-13-redis/redis-02-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-13-redis/redis-02-springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-14-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-14-swagger/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +48,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +67,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XeIwDf6O9Zpo6hGQwr3SoARq0x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -99,6 +138,7 @@
       <updated>1581400369473</updated>
       <workItem from="1581400371368" duration="6908000" />
       <workItem from="1581409154216" duration="4780000" />
+      <workItem from="1609810622489" duration="64000" />
     </task>
     <servers />
   </component>
@@ -106,62 +146,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2387" y="124" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581406865377">
-      <screen x="1920" y="0" width="1600" height="870" />
+    <state width="1865" height="344" key="GridCell.Tab.0.bottom" timestamp="1609810686251">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="2387" y="124" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581406865377" />
-    <state x="2441" y="133" key="FileChooserDialogImpl" timestamp="1581402514912">
-      <screen x="1920" y="0" width="1600" height="870" />
+    <state width="1865" height="344" key="GridCell.Tab.0.bottom/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609810686251" />
+    <state width="1865" height="344" key="GridCell.Tab.0.center" timestamp="1609810686251">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="2441" y="133" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581402514912" />
-    <state width="1547" height="208" key="GridCell.Tab.0.bottom" timestamp="1581416392485">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1865" height="344" key="GridCell.Tab.0.center/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609810686251" />
+    <state width="1865" height="344" key="GridCell.Tab.0.left" timestamp="1609810686251">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1547" height="208" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
-    <state width="1547" height="129" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415198490" />
-    <state width="1547" height="208" key="GridCell.Tab.0.center" timestamp="1581416392485">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1865" height="344" key="GridCell.Tab.0.left/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609810686251" />
+    <state width="1865" height="344" key="GridCell.Tab.0.right" timestamp="1609810686251">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1547" height="208" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
-    <state width="1547" height="129" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415198489" />
-    <state width="1547" height="208" key="GridCell.Tab.0.left" timestamp="1581416392485">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1547" height="208" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
-    <state width="1547" height="129" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415198488" />
-    <state width="1547" height="208" key="GridCell.Tab.0.right" timestamp="1581416392485">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1547" height="208" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
-    <state width="1547" height="129" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415198489" />
-    <state width="1547" height="208" key="GridCell.Tab.1.bottom" timestamp="1581416392486">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1547" height="208" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392486" />
-    <state width="1547" height="129" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415187311" />
-    <state width="1547" height="208" key="GridCell.Tab.1.center" timestamp="1581416392485">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1547" height="208" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
-    <state width="1547" height="129" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415187311" />
-    <state width="1547" height="208" key="GridCell.Tab.1.left" timestamp="1581416392485">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1547" height="208" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392485" />
-    <state width="1547" height="129" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415187311" />
-    <state width="1547" height="208" key="GridCell.Tab.1.right" timestamp="1581416392486">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1547" height="208" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1581416392486" />
-    <state width="1547" height="129" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581415187311" />
-    <state x="2142" y="0" key="SettingsEditor" timestamp="1581400424285">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state x="2142" y="0" key="SettingsEditor/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581400424285" />
-    <state x="2299" y="0" width="840" height="868" key="search.everywhere.popup" timestamp="1581414489770">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state x="2299" y="0" width="840" height="868" key="search.everywhere.popup/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581414489770" />
+    <state width="1865" height="344" key="GridCell.Tab.0.right/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609810686251" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

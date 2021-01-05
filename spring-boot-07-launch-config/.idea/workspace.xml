@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99182291-06d3-49da-85d6-929d68b39a3a" name="Default Changelist" comment="" />
+    <list default="true" id="99182291-06d3-49da-85d6-929d68b39a3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/zzw/springboot06datajpa/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/java/com/zzw/springboot06datajpa/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-06-data-jpa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-06-data-jpa/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-08-starter-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-08-starter/zzw-spring-boot-starter-autoconfigurer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-09-cache/src/main/java/com/zzw/cache/config/MyRedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-09-cache/src/main/java/com/zzw/cache/config/MyRedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-09-cache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-09-cache/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-09-cache/src/test/java/com/zzw/cache/SpringBoot09CacheApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-09-cache/src/test/java/com/zzw/cache/SpringBoot09CacheApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-10-amqp/src/test/java/com/zzw/springboot10amqp/SpringBoot10AmqpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-10-amqp/src/test/java/com/zzw/springboot10amqp/SpringBoot10AmqpApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-11-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-11-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-11-task/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-11-task/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-13-redis/redis-02-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-13-redis/redis-02-springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-14-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-14-swagger/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -22,6 +51,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XfJC7YOhajosOzMBEmZFNoXUg8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -79,6 +109,7 @@
       <workItem from="1581470933141" duration="578000" />
       <workItem from="1581476688019" duration="1074000" />
       <workItem from="1581477813557" duration="733000" />
+      <workItem from="1609810440151" duration="67000" />
     </task>
     <servers />
   </component>
@@ -86,69 +117,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1547" height="252" key="GridCell.Tab.0.bottom" timestamp="1581477756065">
-      <screen x="1920" y="0" width="1600" height="870" />
+    <state width="1865" height="319" key="GridCell.Tab.0.bottom" timestamp="1609810507023">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1547" height="252" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581477756065" />
-    <state width="1547" height="252" key="GridCell.Tab.0.center" timestamp="1581477756065">
-      <screen x="1920" y="0" width="1600" height="870" />
+    <state width="1865" height="319" key="GridCell.Tab.0.bottom/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609810507023" />
+    <state width="1865" height="319" key="GridCell.Tab.0.center" timestamp="1609810507023">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1547" height="252" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581477756065" />
-    <state width="1547" height="252" key="GridCell.Tab.0.left" timestamp="1581477756064">
-      <screen x="1920" y="0" width="1600" height="870" />
+    <state width="1865" height="319" key="GridCell.Tab.0.center/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609810507023" />
+    <state width="1865" height="319" key="GridCell.Tab.0.left" timestamp="1609810507023">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1547" height="252" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581477756064" />
-    <state width="1547" height="252" key="GridCell.Tab.0.right" timestamp="1581477756065">
-      <screen x="1920" y="0" width="1600" height="870" />
+    <state width="1865" height="319" key="GridCell.Tab.0.left/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609810507023" />
+    <state width="1865" height="319" key="GridCell.Tab.0.right" timestamp="1609810507023">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1547" height="252" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581477756065" />
-    <state width="1547" height="126" key="GridCell.Tab.1.bottom" timestamp="1581477743793">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state width="1547" height="126" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581477743793" />
-    <state width="1547" height="126" key="GridCell.Tab.1.center" timestamp="1581477743793">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state width="1547" height="126" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581477743793" />
-    <state width="1547" height="126" key="GridCell.Tab.1.left" timestamp="1581477743793">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state width="1547" height="126" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581477743793" />
-    <state width="1547" height="126" key="GridCell.Tab.1.right" timestamp="1581477743793">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state width="1547" height="126" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581477743793" />
-    <state width="1547" height="263" key="GridCell.Tab.2.bottom" timestamp="1581437705491">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state width="1547" height="263" key="GridCell.Tab.2.bottom/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581437705491" />
-    <state width="1547" height="263" key="GridCell.Tab.2.center" timestamp="1581437705491">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state width="1547" height="263" key="GridCell.Tab.2.center/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581437705491" />
-    <state width="1547" height="263" key="GridCell.Tab.2.left" timestamp="1581437705491">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state width="1547" height="263" key="GridCell.Tab.2.left/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581437705491" />
-    <state width="1547" height="263" key="GridCell.Tab.2.right" timestamp="1581437705491">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state width="1547" height="263" key="GridCell.Tab.2.right/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581437705491" />
-    <state x="2142" y="0" key="SettingsEditor" timestamp="1581431109878">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state x="2142" y="0" key="SettingsEditor/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581431109878" />
-    <state x="2374" y="113" width="804" height="655" key="StructurePopup" timestamp="1581476907057">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state x="2374" y="113" width="804" height="655" key="StructurePopup/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581476907056" />
-    <state x="1920" y="210" key="new project wizard" timestamp="1581436905280">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state x="1920" y="210" key="new project wizard/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581436905280" />
-    <state x="2292" y="0" width="840" height="868" key="search.everywhere.popup" timestamp="1581436543621">
-      <screen x="1920" y="0" width="1600" height="870" />
-    </state>
-    <state x="2292" y="0" width="840" height="868" key="search.everywhere.popup/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1581436543621" />
+    <state width="1865" height="319" key="GridCell.Tab.0.right/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1609810507023" />
   </component>
 </project>

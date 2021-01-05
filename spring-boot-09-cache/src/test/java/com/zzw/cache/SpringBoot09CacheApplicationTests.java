@@ -50,5 +50,4 @@ class SpringBoot09CacheApplicationTests {
         Employee empById = employeeMapper.getEmpById(1);
         System.out.println(empById);
     }
-
 }

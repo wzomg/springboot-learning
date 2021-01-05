@@ -1,12 +1,10 @@
 package com.zzw.springboot05datamybatis.controller;
 
-import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
 import com.zzw.springboot05datamybatis.mapper.DepartmentMapper;
 import com.zzw.springboot05datamybatis.mapper.EmployeeMapper;
 import com.zzw.springboot05datamybatis.pojo.Department;
 import com.zzw.springboot05datamybatis.pojo.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Required;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
