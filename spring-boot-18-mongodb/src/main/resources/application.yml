@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      #host: 127.0.0.1
+      #database: articledb
+      #port: 27017
+      #连接副本集的uri
+      #uri: mongodb://公网ip:27017,公网ip:27018,公网ip:27019/articledb?connect=replicaSet&secondaryOk=true&replicaSet=myrs
+      #连接路由的uri
+      #uri: mongodb://公网ip:27017,公网ip:27117/articledb
+      #用普通用户登录单节点访问某个数据库
+      #uri: mongodb://bobo:123456@公网ip:27017/articledb
+      #用普通用户登录副本集访问某个数据库
+      #uri: mongodb://bobo:123456@公网ip:27017,公网ip:27018,公网ip:27019/articledb?connect=replicaSet&secondaryOk=true&replicaSet=myrs
+      #用普通用户登录分片集群中的某个数据库
+      uri: mongodb://bobo:123456@公网ip:27017,公网ip:27117/articledb
